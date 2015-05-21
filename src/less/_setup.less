@@ -10,36 +10,42 @@
 
 // Colors
 
-@textGray: #666666;
-@bgGray: #F2F2F2;
+@textGray:    #666666;
+@bgGray:      #F2F2F2;
 @lighterGray: #E7E7EC;
-@lightGray: #CBCBD2;
+@lightGray:   #CBCBD2;
+@gray:        #999999;
 
-@yellow: #FED406;
-@green: #32B375;
-@darkgreen: #0A693A;
-@blue: #1CA4DE;
-@brown: #9E6927;
+@yellow:      #FED406;
+@green:       #32B375;
+@darkgreen:   #0A693A;
+@blue:        #1CA4DE;
+@brown:       #9E6927;
 
-@success: #74C080;
-@warning: #FA9F47;
-@error: #D64242;
+@rb-red:      #cc1c4a;
+@rb-yellow:   #9E6927;
+@rb-blue:     #facd34;
 
-@black0:    rgba(0, 0, 0, 0);
-@black25:   rgba(0, 0, 0, 0.25);
-@black50:   rgba(0, 0, 0, 0.5);
-@black75:   rgba(0, 0, 0, 0.75);
-@black90:  rgba(0, 0, 0, 0.9);
+@success:     #74C080;
+@warning:     #FA9F47;
+@error:       #D64242;
 
-@white0:    rgba(255, 255, 255, 0);
-@white25:   rgba(255, 255, 255, 0.25);
-@white50:   rgba(255, 255, 255, 0.5);
-@white75:   rgba(255, 255, 255, 0.75);
+@black0:      rgba(0, 0, 0, 0);
+@black25:     rgba(0, 0, 0, 0.25);
+@black50:     rgba(0, 0, 0, 0.5);
+@black75:     rgba(0, 0, 0, 0.75);
+@black90:     rgba(0, 0, 0, 0.9);
+@black100:    rgba(0, 0, 0, 1);
 
-@black: #3F3F44;
-@white: #fff;
+@white0:      rgba(255, 255, 255, 0);
+@white25:     rgba(255, 255, 255, 0.25);
+@white50:     rgba(255, 255, 255, 0.5);
+@white75:     rgba(255, 255, 255, 0.75);
 
-@spaced: 25px;
+@black:       #222;
+@white:       #fff;
+
+@spaced:      25px;
 
 .bg {
   &.green {
@@ -124,4 +130,12 @@
 img.rounded {
   display: block;
   border-radius: 50%;
+}
+
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
+.transition(){
+  transition: 300ms ease;
 }

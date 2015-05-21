@@ -9,6 +9,8 @@
 <meta name="description" content="<?php bloginfo( 'description' ) ?>">
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script src="//use.typekit.net/fvd1knu.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
 
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -29,11 +31,4 @@
 ?>
 
 <body <?php body_class('fs-grid'); ?>>
-  <div class="wrapper">
-  <header id="head">
-    <div class="fs-row">
-      <div class="fs-cell fs-lg-4 fs-md-2 fs-sm-3"><h1 id="logo"><a href="/"><?php bloginfo( 'name' ) ?></a></h1></div>
-      <nav class="fs-cell fs-lg-8 fs-md-6 fs-sm-3"><?php echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' ); ?></nav>
-    </div>
-  </header>
-
+  <div id="wrapper">
